@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Friends Meme Reel - Voice Issues",
+    "duration": 8.0,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "background_video": "Data/Gameplay/Clipped_Minecraft.mp4",
+    "output_file": "friends_reel_voice_issues.mp4"
+  },
+  "characters": {
+    "chandler": {
+      "image": "Data/Characters/chandler.png",
+      "position": "left",
+      "size": 500
+    },
+    "joey": {
+      "image": "Data/Characters/joey.png", 
+      "position": "right",
+      "size": 500
+    }
+  },
+  "dialogue": [
+    {
+      "id": 1,
+      "character": "joey",
+      "text": "Why do I sound like a robot?",
+      "start_time": 0.00,
+      "duration": 1.49,
+      "text_color": "#FFD700",
+      "stroke_color": "#000000",
+      "stroke_width": 4,
+      "font_size": 80,
+      "position": "top"
+    },
+    {
+      "id": 2,
+      "character": "chandler",
+      "text": "Could I BE any more confused?",
+      "start_time": 1.75,
+      "duration": 1.44,
+      "text_color": "#00CED1",
+      "stroke_color": "#000000",
+      "stroke_width": 4,
+      "font_size": 80,
+      "position": "top"
+    },
+    {
+      "id": 3,
+      "character": "joey",
+      "text": "Joey doesn't understand code!",
+      "start_time": 3.50,
+      "duration": 1.80,
+      "text_color": "#FF8C00",
+      "stroke_color": "#000000",
+      "stroke_width": 4,
+      "font_size": 80,
+      "position": "top"
+    },
+    {
+      "id": 4,
+      "character": "chandler",
+      "text": "We're stuck until they fix it!",
+      "start_time": 5.50,
+      "duration": 1.52,
+      "text_color": "#4169E1",
+      "stroke_color": "#000000",
+      "stroke_width": 4,
+      "font_size": 80,
+      "position": "top"
+    }
+  ],
+  "tts_settings": {
+    "enabled": true,
+    "voices": {
+      "chandler": {
+        "voice_id": "VR6AewLTigWG4xSOukaG",
+        "stability": 0.5,
+        "similarity_boost": 0.75
+      },
+      "joey": {
+        "voice_id": "pNInz6obpgDQGcFmaJgB",
+        "stability": 0.5,
+        "similarity_boost": 0.75
+      }
+    },
+    "api_key": "YOUR_ELEVENLABS_API_KEY_HERE"
+  }
+}
