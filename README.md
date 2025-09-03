@@ -9,7 +9,8 @@ This project demonstrates a full-stack approach to AI content creation, from man
 ## Demo
 
 Check out the demo reel showcasing the voice cloning results:
-- **Demo Video**: `Data/Artifacts/demo_reel.mp4`
+
+https://github.com/ohmpatel46/Fullstack_Rick/blob/main/Data/Artifacts/Rick_n_Morty_CoQui_TTS.mp4
 
 The demo demonstrates the complete pipeline in action, featuring Rick and Morty characters with AI-generated voices discussing tech topics over Minecraft gameplay footage.
 
