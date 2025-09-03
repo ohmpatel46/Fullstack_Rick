@@ -2,6 +2,8 @@
 
 A complete Python pipeline for creating viral Instagram-style reels with AI-generated character voices, featuring data collection, voice cloning, and video generation.
 
+**Check out the demo reel on my [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7368487143922434048/)**
+
 ## Project Overview
 
 This project demonstrates a full-stack approach to AI content creation, from manual data annotation to fine-tuned voice synthesis. Inspired by viral Instagram reels where animated characters discuss current tech trends, this system creates similar content using Rick & Morty characters with AI-generated voices.
