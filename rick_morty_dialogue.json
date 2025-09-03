@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "title": "Rick & Morty CoQUI TTS Explanation Reel",
+    "duration": 60.0,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "background_video": "Data/Gameplay/Clipped_Minecraft.mp4",
+    "output_file": "rick_morty_coqui_reel.mp4"
+  },
+  "characters": {
+    "rick": {
+      "image": "Data/Characters/Rick.png",
+      "position": "left",
+      "size": 500
+    },
+    "morty": {
+      "image": "Data/Characters/Morty.png", 
+      "position": "right",
+      "size": 500
+    }
+  },
+  "audio_sequence": [
+    {
+      "id": 1,
+      "audio_file": "Morty1",
+      "character": "morty",
+      "text": "Aw geez Rick, what's TTS? And why do you keep saying 'CoQUI' like that?"
+    },
+    {
+      "id": 2,
+      "audio_file": "Rick2",
+      "character": "rick",
+      "text": "TTS means Text-To-Speech, Morty! CoQUI TTS can clone ANY voice from just a few seconds of audio!"
+    },
+    {
+      "id": 3,
+      "audio_file": "Rick3",
+      "character": "rick",
+      "text": "It's like having a voice synthesizer that can sound like anyone!"
+    },
+    {
+      "id": 4,
+      "audio_file": "Morty4",
+      "character": "morty",
+      "text": "Wait, so you're telling me it can make ANY voice say ANYTHING? That sounds kinda creepy, Rick..."
+    },
+    {
+      "id": 5,
+      "audio_file": "Rick5",
+      "character": "rick",
+      "text": "Exactly! But Morty, it's not just creepy - it's REVOLUTIONARY!"
+    },
+    {
+      "id": 6,
+      "audio_file": "Rick6",
+      "character": "rick",
+      "text": "Think about it: you could have Einstein explain quantum physics in his own voice, or hear Shakespeare read his own plays!"
+    },
+    {
+      "id": 7,
+      "audio_file": "Morty7",
+      "character": "morty",
+      "text": "Wow Rick, that's actually pretty cool! So it's like... voice time travel?"
+    },
+    {
+      "id": 8,
+      "audio_file": "Rick8",
+      "character": "rick",
+      "text": "Voice time travel! I like that, Morty! But wait, there's more!"
+    },
+    {
+      "id": 9,
+      "audio_file": "Rick9",
+      "character": "rick",
+      "text": "CoQUI TTS can also fine-tune models for specific voices, languages, and even emotions!"
+    },
+    {
+      "id": 10,
+      "audio_file": "Morty10",
+      "character": "morty",
+      "text": "Fine-tune? What does that mean, Rick?"
+    },
+    {
+      "id": 11,
+      "audio_file": "Rick11",
+      "character": "rick",
+      "text": "Fine-tuning means you can train the model on specific data to make it even better!"
+    },
+    {
+      "id": 12,
+      "audio_file": "Rick12",
+      "character": "rick",
+      "text": "Want a voice that sounds exactly like your grandma? Fine-tune it on her voice recordings!"
+    },
+    {
+      "id": 13,
+      "audio_file": "Morty13",
+      "character": "morty",
+      "text": "That's amazing! But Rick, what about different languages? Can it do that too?"
+    },
+    {
+      "id": 14,
+      "audio_file": "Rick14",
+      "character": "rick",
+      "text": "Absolutely, Morty! CoQUI TTS supports multiple languages and can even do cross-language voice cloning!"
+    },
+    {
+      "id": 15,
+      "audio_file": "Rick15",
+      "character": "rick",
+      "text": "Clone a voice in English and make it speak Spanish!"
+    },
+    {
+      "id": 16,
+      "audio_file": "Morty16",
+      "character": "morty",
+      "text": "This is getting really impressive! So it's like the ultimate voice tool?"
+    },
+    {
+      "id": 17,
+      "audio_file": "Rick17",
+      "character": "rick",
+      "text": "Exactly! And it's all open-source, Morty!"
+    },
+    {
+      "id": 18,
+      "audio_file": "Rick18",
+      "character": "rick",
+      "text": "Anyone can use it, modify it, and contribute to making it even better!"
+    }
+  ],
+  "tts_settings": {
+    "enabled": false,
+    "use_coqui": false,
+    "voices": {
+      "rick": {
+        "samples": [
+          "ep02_rick_0008.wav",
+          "ep02_rick_0009.wav", 
+          "ep02_rick_0016.wav",
+          "ep02_rick_0021.wav",
+          "ep02_rick_0036.wav"
+        ]
+      },
+      "morty": {
+        "samples": [
+          "ep01_morty_0005.wav",
+          "ep01_morty_0012.wav",
+          "ep01_morty_0018.wav",
+          "ep01_morty_0025.wav",
+          "ep01_morty_0032.wav"
+        ]
+      }
+    }
+  }
+}

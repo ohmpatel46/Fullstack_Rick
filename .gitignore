@@ -2,6 +2,7 @@
 *.mp4
 *.mp3
 *.srt
+*.wav
 
 # Environment files
 .env
@@ -25,3 +26,40 @@ ENV/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Project-specific large files
+Data/Gameplay/
+Data/Rick_n_Morty/Audio/
+Data/Rick_n_Morty/Subtitles/
+rick_and_morty_tts/wavs/
+audio_clips/
+
+# Generated output files
+*_reel*.mp4
+*_reel*.wav
+*_clone*.wav
+*_test*.wav
+
+# TTS model files
+*.pth
+*.pt
+tts_training_output/
+phoneme_cache/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Log files
+*.log
+logs/
+
+# Model checkpoints and outputs
+checkpoints/
+outputs/
+results/
+
+# Allow demo videos in Artifacts folder
+!Data/Artifacts/*.mp4
